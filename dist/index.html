@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Portfolio Site</title>
+</head>
+<body>
+  <section id="main">
+    <nav>
+      <a href="#!" class="logo">
+        <img src="./images/logo.png" alt="Logo">
+      </a>
+      <input type="checkbox" name="menu-btn" id="menu-btn" class="menu-btn">
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="#main">Home</a></li>
+        <li><a href="#skills">Skills </a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#recent">Recent</a></li>
+        <li><a href="#client">Clients</a></li>
+      </ul>
+      <a href="#contact" class="hey">Say Hi</a>
+    </nav>
+
+    <div class="content">
+      <div class="model">
+        <img src="./images/PSX_20181119_154449.jpg" alt="Me">
+      </div>
+      <div class="main-text">
+        <h1>Hello, I am Kosam</h1>
+        <p>I love to build things with code, write blogs about tech and learning new technology</p>
+        <a href="https://drive.google.com/file/d/1wZxRgBVNE3VQeNz_WaQWAfswLwfsQylV/view?usp=sharing" target="_blank" class="portfolio-btn">See My Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="skill-text">
+      <div class="skill-heading">
+        <span>My Skills</span>
+        <h2>My Expertise</h2>
+      </div>
+      <div class="s-box-container">
+        <div class="skill-box">
+          <div class="s-box-icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <div class="s-box-text">
+            <strong>Python</strong>
+            <p>I have 2 years of experience in Python Django and completed 10+ projects</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="s-box-icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="s-box-text">
+            <strong>JavaScript</strong>
+            <p>I have 2 years of experience in JavaScript and completed 10+ projects</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="s-box-icon">
+            <i class="fab fa-node"></i>
+          </div>
+          <div class="s-box-text">
+            <strong>Nodejs</strong>
+            <p>I have 2 years of experience in Node Express and completed 10+ projects</p>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="s-box-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <div class="s-box-text">
+            <strong>Reactjs</strong>
+            <p>I have 2 years of experience in React and completed 10+ projects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skill-img">
+      <img src="./images/skillsimg.jpg" alt="Skill">
+    </div>
+  </section>
+
+  <section id="recent">
+    <div class="recent-heading">
+      <span>Recent</span>
+      <h3>Recent Doing Project Design</h3>
+    </div>
+    <div class="recent-img">
+      <img src="./images/stepper.PNG" alt="">
+    </div>
+    <a href="https://stepperv1.herokuapp.com/" target="_blank" class="recent-btn">View</a>
+  </section>
+
+  <section id="client">
+    <div class="client-heading">
+      <span>Comments</span>
+      <h3>What Clients Say</h3>
+    </div>
+    <div class="c-box-container">
+      <div class="client-box">
+        <img src="./images/person1.jpg" alt="client1">
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>If you are looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph.</p>
+        <a href="#!" class="read-more">Read More</a>
+      </div>
+      <div class="client-box">
+        <img src="./images/person2.jpg" alt="client1">
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>If you are looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph.</p>
+        <a href="#!" class="read-more">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <img src="./images/success-mission.jpg" alt="Contact">
+    <h3>Get The Best Project Estimation</h3>
+    <div class="contact-input"> 
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="email" name="email" id="email" placeholder="someone@example.com">
+        <button type="submit">Continue</button>
+      </form> 
+    </div>
+  </section>
+
+  <footer>
+    <p>Growing with technology</p>
+    <p>Copyright &copy; 2020</p>
+  </footer>
+</body>
+</html>
