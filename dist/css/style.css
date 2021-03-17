@@ -114,7 +114,7 @@ nav ul li a:hover {
   color: #747474;
 }
 
-.portfolio-btn, .recent-btn, .client-box a{
+.portfolio-btn, .recent-btn, .client-box a, .project-box a{
   width: 190px;
   height: 44px;
   display: flex;
@@ -126,7 +126,7 @@ nav ul li a:hover {
   box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
 }
 
-.portfolio-btn:hover, .recent-btn:hover, .client-box a:hover, .contact-input button:hover {
+.portfolio-btn:hover, .recent-btn:hover, .client-box a:hover, .contact-input button:hover, .project-box a:hover {
   background-color: #23cdaf;
   transition: all ease 0.2s;
 }
@@ -206,7 +206,7 @@ nav ul li a:hover {
   margin: 30px 0;
 }
 
-.recent-heading span, .client-heading span {
+.recent-heading span, .client-heading span, .project-heading span {
   color: #36b7b5;
   font-weight: 500;
   text-transform: uppercase;
@@ -234,6 +234,87 @@ nav ul li a:hover {
 .recent-btn {
   width: 190px;
   margin-top: -30px;
+}
+
+#projects {
+  width: 100%;
+  border-top: 1px solid rgba(58, 58, 58, 0.03);
+  border-bottom: 1px solid rgba(58, 58, 58, 0.03);
+  padding: 50px 0; 
+}
+
+.project-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+
+.project-box {
+  width: 310px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* .project-box img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+} */
+
+.project-box p {
+  color: #777777;
+  font-size: .9rem;
+  margin: 0;
+  text-align: center;
+  display: block;
+  display: -webkit-box;
+  max-width: 80%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.projectimg {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+.project-box a {
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 0;
+}
+
+.project-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all ease 0.2s;
+}
+
+.stack {
+  margin-top: 5px;
 }
 
 #client {
@@ -340,7 +421,8 @@ nav ul li a:hover {
 }
 
 #contact img {
-  height: 300px;
+  height: 60%;
+  width: 60%;
 }
 
 .contact-input form {
@@ -415,6 +497,9 @@ nav .menu-btn {
     height: 400px;
   }
   .client-box {
+    flex-grow: 0.5;
+  }
+  .project-box {
     flex-grow: 0.5;
   }
 }
@@ -565,5 +650,9 @@ nav .menu-btn {
   }
   #skills {
     margin: 0;
+  }
+  #contact img {
+    height: 80%;
+    width: 80%;
   }
 }
