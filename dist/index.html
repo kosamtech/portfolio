@@ -1,383 +1,1404 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3LWM57PVFW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-S5JM72CZW0"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-    gtag('config', 'G-3LWM57PVFW');
-  </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+            gtag("config", "G-S5JM72CZW0");
+        </script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
 
-  <meta name="keywords" content="Automating everything Portfolio KosamTech">
-  <meta name="author" content="Kosam Omollo">
-  <meta name="description" content="Portfolio Website - Blog site to teach on productivity, learn Python, learn Linux system, learn ethical hacking, learn reactjs, learn kotlin grow effectively as a developer, ">
-  <meta property="og:locale" content="en_US" />
-  <link rel="canonical" href="https://fervent-newton-0cde7c.netlify.app/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Portfolio Website - Kosam Omollo" />
-  <meta property="og:description" content="Portfolio Website Automating everything" />
-  <meta property="og:url" content="https://fervent-newton-0cde7c.netlify.app/" />
-  <meta property="og:site_name" content="KosamTech Portfolio Website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="Portolio Automating everything" />
-  <meta name="twitter:title" content="KosamTech - Portfolio Website" />
+        <meta name="keywords" content="Automating everything" />
+        <meta name="author" content="Kosam Omollo" />
+        <meta
+            name="description"
+            content="Kosam Omollo: Innovating at the intersection of software engineering and data science. Explore my portfolio of full-stack, backend, and frontend projects."
+        />
+        <meta property="og:locale" content="en_US" />
+        <link rel="canonical" href="https://portfolio.kosamtech.com" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="Kosam Omollo - Tech Innovator Portfolio"
+        />
+        <meta
+            property="og:description"
+            content="Discover Kosam Omollo's journey through software engineering, data science, and machine learning."
+        />
+        <meta property="og:url" content="https://portfolio.kosamtech.com" />
+        <meta property="og:site_name" content="Kosam Portfolio Website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kosam Omollo's Tech Portfolio" />
+        <meta
+            name="twitter:description"
+            content="Explore the innovative projects of Kosam Omollo in software engineering and data science."
+        />
+        <meta name="twitter:image" content="https://portfolio.kosamtech.com" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
 
-  <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.css" />
 
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <title>Portfolio Site</title>
-</head>
-<body>
-  <section id="main">
-    <nav>
-      <a href="#!" class="logo">
-        <img src="./images/logo.png" alt="Logo">
-      </a>
-      <input type="checkbox" name="menu-btn" id="menu-btn" class="menu-btn">
-      <label for="menu-btn" class="menu-icon">
-        <span class="nav-icon"></span>
-      </label>
-      <ul class="menu">
-        <li><a href="#main">Home</a></li>
-        <li><a href="#skills">Skills </a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#recent">Recent</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="https://kosamtech.com" target="_blank">Blog</a></li>
-        <li><a href="#client">Clients</a></li>
-      </ul>
-      <a href="#contact" class="hey">Say Hi</a>
-    </nav>
+        <link
+            rel="shortcut icon"
+            href="./images/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>Kosam Omollo - Software Engineer & Data Scientist</title>
+    </head>
+    <body>
+        <section id="main">
+            <nav>
+                <a href="/" class="logo">
+                    <img src="./images/logo.png" alt="Logo" />
+                </a>
+                <input
+                    type="checkbox"
+                    name="menu-btn"
+                    id="menu-btn"
+                    class="menu-btn"
+                />
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+                <ul class="menu">
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#skills">Skills </a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#recent">Recent</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li>
+                        <a href="https://kosamtech.com" target="_blank"
+                            >Products</a
+                        >
+                    </li>
+                    <li><a href="#client">Clients</a></li>
+                </ul>
+                <a href="#contact" class="hey">Say Hi</a>
+            </nav>
 
-    <div class="content">
-      <div class="model">
-        <img src="./images/PSX_20181119_154449.jpg" alt="Me">
-      </div>
-      <div class="main-text">
-        <h1>Hello, I am Kosam</h1>
-        <p>I love to build things with code, tweet/x about tech and learning new technology</p>
-        <a href="https://docs.google.com/document/d/13FF16H2MzrNhZERufurBf_E2uGimp5k0ESl5OmZMikk/edit?usp=sharing" target="_blank" class="portfolio-btn">See My Resume</a>
-      </div>
-    </div>
-  </section>
+            <div class="content">
+                <div class="model">
+                    <img src="./images/me.jpg" alt="Me" />
+                </div>
+                <div class="main-text">
+                    <h1>Hello, I am Kosam</h1>
+                    <p>
+                        I love to build things with code, tweet/x about tech and
+                        learning new technology. I accept fiat and crypto
+                    </p>
+                    <a
+                        href="https://docs.google.com/document/d/13FF16H2MzrNhZERufurBf_E2uGimp5k0ESl5OmZMikk/edit?usp=sharing"
+                        target="_blank"
+                        class="portfolio-btn"
+                        >See My Resume</a
+                    >
+                </div>
+            </div>
+        </section>
 
-  <section id="skills">
-    <div class="skill-text">
-      <div class="skill-heading">
-        <span>My Skills</span>
-        <h2>My Expertise</h2>
-      </div>
-      <div class="s-box-container">
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-python"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Python</strong>
-            <p>I have 5 years of experience in Python and completed 10+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-python"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Django</strong>
-            <p>I have 5 years of experience in Django and completed 10+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-js-square"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>JavaScript</strong>
-            <p>I have 5 years of experience in JavaScript and completed 10+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-js-square"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Typescript</strong>
-            <p>I have 5 years of experience in Typescript and completed 10+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-node"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Nodejs</strong>
-            <p>I have 5 years of experience in Node Express and completed 10+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-react"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Reactjs</strong>
-            <p>I have 5 years of experience in React and completed 10+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-react"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Nextjs</strong>
-            <p>I have 3 years of experience in Next and completed 2+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-code"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>DataScience & ML</strong>
-            <p>I have 2 year of experience in Datascience & Machine Learning  and completed 2+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-android"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Kotlin/Android</strong>
-            <p>I have 3 year of experience in Kotlin Android and completed 4+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-docker"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Docker</strong>
-            <p>I have 4 year of experience in Docker and Running Containers</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-kubernetes"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Kubernetes</strong>
-            <p>I have 3 year of experience in Kubernetes and Cloud Native</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-aws"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>AWS</strong>
-            <p>I am an AWS Certified Cloud Practitioner</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fab fa-digital-ocean"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Digital Ocean</strong>
-            <p>I have 5 year of experience in Digital Infrastucture</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fas fa-cat"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Nestjs</strong>
-            <p>I have 3 year of experience in Nestjs and completed 2+ projects</p>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="s-box-icon">
-            <i class="fas fa-github"></i>
-          </div>
-          <div class="s-box-text">
-            <strong>Git & Github</strong>
-            <p>I have 5 year of experience in Git and Github source control systems</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="skill-img">
-      <img src="./images/skillsimg.jpg" alt="Skill">
-    </div>
-  </section>
+        <section id="skills">
+            <div class="skill-heading">
+                <span>My Skills</span>
+                <h2>My Expertise</h2>
+            </div>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/python.png" alt="python"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Python</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>5 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.pirple.com/certificates/iibzih1oev"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span>1. Python Is Easy</span>
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-8d12fb2a-afd4-479e-8122-0d17689099ac"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Python For Finance: Financial
+                                        Analysis For Investing</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-5978c134-ba00-4615-adc3-bc1f84176728"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >3. Python For Finance and Algorithmic
+                                        Trading with QuantConnect</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/django.png" alt="django"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Django</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>5 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.pirple.com/certificates/iibzih1oev"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span>1. Python Is Easy</span>
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-8d12fb2a-afd4-479e-8122-0d17689099ac"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Python For Finance: Financial
+                                        Analysis For Investing</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-5978c134-ba00-4615-adc3-bc1f84176728"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >3. Python For Finance and Algorithmic
+                                        Trading with QuantConnect</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img
+                                src="./images/javascript.png"
+                                alt="javascript"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>JavaScript</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>5 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-7AQUKIFJ"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. MERN Stack Front To Back: Fullstack
+                                        React Redux NodeJS</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.pirple.com/certificates/lklx7hzgcl"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span>2. NodeJS Master Class</span>
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span>3. Modern JavaScript</span>
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img
+                                src="./images/typescript.png"
+                                alt="typescript"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Typescript</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>5 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-6e174ce5-5278-4620-a746-b3892b04820d"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. React and Typescript: Build a
+                                        Portfolio Project</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-20bbdbcb-025d-49b7-95bd-f3938ebeba89"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Typescript: The Complete Developers
+                                        Guide</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/node.png" alt="nodejs"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>NodeJS</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>5 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-69182055-5c16-4361-b588-0dde63d82fef"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span>1. NodeJS: Advanced Concepts</span>
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-23d5b937-dfe0-45dc-b0ec-d14abd365b85"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Websockets Protocol - Very
+                                        Informative</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-DPB3I37F"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >3. NodeJS Express MongoDB Dev To
+                                        Deployment</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-7AQUKIFJ"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >4. MERN Stack Front To Back: Fullstack
+                                        React Redux NodeJS</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/react.png" alt="reactjs"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>ReactJS</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>5 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-696ddfde-1f45-4c0e-b238-005ff3e6e617"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span>1. Modern React with Redux</span>
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-6e174ce5-5278-4620-a746-b3892b04820d"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. React and Typescript: Build a
+                                        Portfolio Project</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-267f9160-e534-48cc-8ccf-d6cb08420de2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >3. Advanced React Testing: Redux Saga
+                                        and React Router</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-7AQUKIFJ"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >4. MERN Stack Front To Back: Fullstack
+                                        React Redux NodeJS</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-URR2VOOY"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span>5. React Front To Back</span>
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img
+                                src="./images/deep_learning.png"
+                                alt="deep_learning"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Deep Learning</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>2 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-77c93ec6-3070-4bc6-a2a4-1d5ae2ec2ba5"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. Deep Learning: Recurrent Neural
+                                        Networks In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-b1d159bc-a925-493e-89d2-399688a9a9be"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Unsupervised Deep Learning In
+                                        Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-64632a12-10f7-4127-a349-f6d7ae5a3a5d"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >3. Deep Learning: Convolutional Neural
+                                        Networks In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-cd96b686-0e13-40f3-94b1-25bd3014b7d5"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >4. Deep Learning Prerequisites:
+                                        Logistic Regression In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-0535e860-3768-435e-96a6-2d116e86ab07"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >5. Deep Learning Prerequisites: Linear
+                                        Regression In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-5b15572b-22d1-45fe-a4fb-4fec1dc60d41/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >6. Deep Learning Prerequisites: Numpy
+                                        Stack In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img
+                                src="./images/deep_learning.png"
+                                alt="data_science"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Data Science</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>2 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-00e4eb36-fd0d-450a-9ffa-219d2f259ecb"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. Data Science: Natural Language
+                                        Processing NLP In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-09bab807-c05c-4982-90d4-c24edcee1869"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Data Science: Supervised Machine
+                                        Learning In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-d13c6b96-0a5e-4d81-ad8d-b8f8a671c02a"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >3. Data Science: Modern Deep Learning
+                                        In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-6e42ea00-6651-493b-a8d0-ac5127d8800e"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >4. Data Science: Deep Learning and
+                                        Neural Networks In Python</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/math.png" alt="math"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Math & Statistics</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>5 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-de2f3aef-c817-4ad5-88c7-bd332e4e8488"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. Math 0-1: Culculus for Data science
+                                        & Machine Learning</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/machine_learning.png" alt="ml"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Machine Learning</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>2 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-85f473d8-3c57-4aa3-a039-3c60bad78925"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. ChatGPT and LangChain: The Complete
+                                        Developer's Masterclass</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-40c190a5-e59e-4123-b626-743d994c7700"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Complete Machine Learning and Data
+                                        Science Bootcamp</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/docker.png" alt="docker"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Docker</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>4 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-d7eedcb0-79e1-4414-b152-ab8b0ddba223"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. Docker and Kubernetes: The Complete
+                                        Guide</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-9ac41c88-fb2e-47b7-ae9b-4264b0b041a2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Jenkins: Job, Pipelines, CI/CD and
+                                        DevOps</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img
+                                src="./images/kubernetes.png"
+                                alt="kubernetes"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>Kubernetes</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>2 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-d7eedcb0-79e1-4414-b152-ab8b0ddba223"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. Docker and Kubernetes: The Complete
+                                        Guide</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-9ac41c88-fb2e-47b7-ae9b-4264b0b041a2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >2. Jenkins: Job, Pipelines, CI/CD and
+                                        DevOps</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/nextjs.png" alt="nextjs"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>NextJS</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>3 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-959c1502-2bad-4e89-b0cd-102a15163692"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. NextJS: The Complete Developer's
+                                        Guide</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/aws.png" alt="aws"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <div class="tooltip">
+                            <strong>AWS</strong>
+                            <img
+                                src="./images/check_complete.png"
+                                alt="check"
+                                class="verified"
+                            />
+                            <span class="tooltip-text">Certified</span>
+                        </div>
+                        <p>2 years of experience</p>
+                        <p>View certifications below:</p>
+                        <ul class="certifications">
+                            <li>
+                                <a
+                                    href="https://www.udemy.com/certificate/UC-33d5003c-298b-4999-b393-d7b447744826"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    ><span
+                                        >1. AWS Certified Cloud Practioner -
+                                        Udemy</span
+                                    >
+                                    <span
+                                        ><img
+                                            src="./images/external_link.png"
+                                            alt="external_link"
+                                        /> </span
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img
+                                src="./images/digital_ocean.png"
+                                alt="digital_ocean"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Digital Ocean</strong>
+                        <p>
+                            I have 4 year of experience in Digital Infrastucture
+                        </p>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/android.png" alt="android"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Kotlin/Android</strong>
+                        <p>
+                            I have 1 year of experience in Kotlin Android and
+                            completed 2+ projects
+                        </p>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/nestjs.png" alt="nestjs"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Nestjs</strong>
+                        <p>
+                            I have 1 year of experience in Nestjs and completed
+                            2+ projects
+                        </p>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <span class="icon"
+                            ><img src="./images/github.png" alt="github"
+                        /></span>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Git & Github</strong>
+                        <p>
+                            I have 5 year of experience in Git and Github source
+                            control systems
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section id="recent">
-    <div class="recent-heading">
-      <span>Recent</span>
-      <h3>Recent Doing Project Design</h3>
-    </div>
-    <div class="recent-img">
-      <img src="./images/stepperhome.png" alt="">
-    </div>
-    <a href="https://stepper.kosamtech.com" target="_blank" class="recent-btn">View</a>
-  </section>
+        <section id="recent">
+            <div class="recent-heading">
+                <span>Recent</span>
+                <h3>Recent Doing Project Design</h3>
+            </div>
+            <div class="recent-img">
+                <img src="./images/aft.png" alt="aft" />
+            </div>
+            <a href="https://kosamtech.com" target="_blank" class="recent-btn"
+                >View</a
+            >
+        </section>
 
-  <section id="projects">
-    <div class="project-heading">
-      <span>Projects</span>
-    </div>
-    <div class="p-box-container">
-      <div class="project-box">
-        <img src="./images/kosamtech.png" class="projectimg" alt="project1">
-        <p>KosamTech - Automating everything. Find coding related articles. Career tips in the life of a developer</p>
-        <div class="stack">
-          <span class="">Python</span>
-          <span class="">Django</span>
-        </div>
-        <a href="https://kosamtech.com" class="read-more" target="_blank">View</a>
-      </div>
-      <div class="project-box">
-        <img src="./images/allsafeshop.png" class="projectimg" alt="project1">
-        <p>Allsafeshop No.1 Online Shop for your business. Intergrated Stripe Payment Method</p>
-        <div class="stack">
-          <span class="">Python</span>
-          <span class="">Django</span>
-        </div>
-        <a href="https://allsafe-shop.herokuapp.com" class="read-more" target="_blank">View</a>
-      </div>
-      <div class="project-box">
-        <img src="./images/livestreamhome.png" class="projectimg" alt="project1">
-        <p>Instadriver - Instagram for Drivers. Livestream and chat with other drivers</p>
-        <div class="stack">
-          <span class="">ReactJs</span>
-          <span class="">JavaScript</span>
-        </div>
-        <a href="https://eloquent-leavitt-feff8f.netlify.app" class="read-more" target="_blank">View</a>
-      </div>
-      <div class="project-box">
-        <img src="./images/oracleevents.png" class="projectimg" alt="project1">
-        <p>Oracle Kenyatta University Club. club website to manage events and internal operations</p>
-        <div class="stack">
-          <span class="">Python</span>
-          <span class="">Django</span>
-        </div>
-        <a href="https://oracleku-club.herokuapp.com" class="read-more" target="_blank">View</a>
-      </div>
-      <div class="project-box">
-        <img src="./images/devc.png" class="projectimg" alt="project1">
-        <p>Developers Connect - LinkedIn for developers to showcase their skills and find potential recruiters</p>
-        <div class="stack">
-          <span class="">ReactJS</span>
-          <span class="">Express</span>
-          <span class="">NodeJS</span>
-          <span class="">Redux</span>
-        </div>
-        <a href="https://developerskonnector.herokuapp.com" class="read-more" target="_blank">View</a>
-      </div>
-      <div class="project-box">
-        <img src="./images/instadriver.png" class="projectimg" alt="project1">
-        <p>Instadriver cloud-based fleet management solution for your transport business.</p>
-        <div class="stack">
-          <span class="">ReactJS</span>
-          <span class="">NestJS</span>
-          <span class="">NodeJS</span>
-          <span class="">Redux</span>
-        </div>
-        <a href="https://instadriverclone.herokuapp.com" class="read-more" target="_blank">View</a>
-      </div>
-      <div class="project-box">
-        <img src="./images/customers.png" class="projectimg" alt="project1">
-        <p>Stepper - Migrate from one household to another at the convinience of our services</p>
-        <div class="stack">
-          <span class="">ReactJS</span>
-          <span class="">NestJS</span>
-          <span class="">Express</span>
-          <span class="">NodeJS</span>
-          <span class="">Redux</span>
-        </div>
-        <a href="https://stepper.kosamtech.com" class="read-more" target="_blank">View</a>
-      </div>
-      <div class="project-box">
-        <img src="./images/akasiissues.png" class="projectimg" alt="project1">
-        <p>Akasisystems - File, Resolve and Manage Issues with akasi issues management systems</p>
-        <div class="stack">
-          <span class="">ReactJS</span>
-          <span class="">PostgreSQL</span>
-          <span class="">Express</span>
-          <span class="">NodeJS</span>
-          <span class="">Redux</span>
-        </div>
-        <a href="https://akasi-ism.herokuapp.com" class="read-more" target="_blank">View</a>
-      </div>
-    </div>
-  </section>
+        <section id="projects">
+            <div class="project-heading">
+                <span>Projects</span>
+            </div>
+            <div class="p-box-container">
+                <div class="project-box">
+                    <img
+                        src="./images/kosamtech.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        KosamTech - Automating everything. Find coding related
+                        articles. Career tips in the life of a developer
+                    </p>
+                    <div class="stack">
+                        <span class="">Python</span>
+                        <span class="">Django</span>
+                    </div>
+                    <a
+                        href="https://kosamtech.com"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+                <div class="project-box">
+                    <img
+                        src="./images/allsafeshop.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        Allsafeshop No.1 Online Shop for your business.
+                        Intergrated Stripe Payment Method
+                    </p>
+                    <div class="stack">
+                        <span class="">Python</span>
+                        <span class="">Django</span>
+                    </div>
+                    <a
+                        href="https://allsafe-shop.herokuapp.com"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+                <div class="project-box">
+                    <img
+                        src="./images/livestreamhome.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        Instadriver - Instagram for Drivers. Livestream and chat
+                        with other drivers
+                    </p>
+                    <div class="stack">
+                        <span class="">ReactJs</span>
+                        <span class="">JavaScript</span>
+                    </div>
+                    <a
+                        href="https://eloquent-leavitt-feff8f.netlify.app"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+                <div class="project-box">
+                    <img
+                        src="./images/oracleevents.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        Oracle Kenyatta University Club. club website to manage
+                        events and internal operations
+                    </p>
+                    <div class="stack">
+                        <span class="">Python</span>
+                        <span class="">Django</span>
+                    </div>
+                    <a
+                        href="https://oracleku-club.herokuapp.com"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+                <div class="project-box">
+                    <img
+                        src="./images/devc.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        Developers Connect - LinkedIn for developers to showcase
+                        their skills and find potential recruiters
+                    </p>
+                    <div class="stack">
+                        <span class="">ReactJS</span>
+                        <span class="">Express</span>
+                        <span class="">NodeJS</span>
+                        <span class="">Redux</span>
+                    </div>
+                    <a
+                        href="https://developerskonnector.herokuapp.com"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+                <div class="project-box">
+                    <img
+                        src="./images/instadriver.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        Instadriver cloud-based fleet management solution for
+                        your transport business.
+                    </p>
+                    <div class="stack">
+                        <span class="">ReactJS</span>
+                        <span class="">NestJS</span>
+                        <span class="">NodeJS</span>
+                        <span class="">Redux</span>
+                    </div>
+                    <a
+                        href="https://instadriverclone.herokuapp.com"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+                <div class="project-box">
+                    <img
+                        src="./images/customers.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        Stepper - Migrate from one household to another at the
+                        convinience of our services
+                    </p>
+                    <div class="stack">
+                        <span class="">ReactJS</span>
+                        <span class="">NestJS</span>
+                        <span class="">Express</span>
+                        <span class="">NodeJS</span>
+                        <span class="">Redux</span>
+                    </div>
+                    <a
+                        href="https://stepper.kosamtech.com"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+                <div class="project-box">
+                    <img
+                        src="./images/akasiissues.png"
+                        class="projectimg"
+                        alt="project1"
+                    />
+                    <p>
+                        Akasisystems - File, Resolve and Manage Issues with
+                        akasi issues management systems
+                    </p>
+                    <div class="stack">
+                        <span class="">ReactJS</span>
+                        <span class="">PostgreSQL</span>
+                        <span class="">Express</span>
+                        <span class="">NodeJS</span>
+                        <span class="">Redux</span>
+                    </div>
+                    <a
+                        href="https://akasi-ism.herokuapp.com"
+                        class="read-more"
+                        target="_blank"
+                        >View</a
+                    >
+                </div>
+            </div>
+        </section>
 
-  <section id="client">
-    <div class="client-heading">
-      <span>Comments</span>
-      <h3>What Clients Say</h3>
-    </div>
-    <div class="c-box-container">
-      <div class="client-box">
-        <img src="./images/person1.jpg" alt="client1">
-        <div class="star">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
-        <p>If you are looking for a good developer with fullstack experience and could engineering experience who can deliver projects seamlingly fast and in efficient manner, I would definately recommend Kosam</p>
-        <a href="#!" class="read-more">Read More</a>
-      </div>
-      <div class="client-box">
-        <img src="./images/person2.jpg" alt="client1">
-        <div class="star">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="far fa-star"></i>
-        </div>
-        <p>If you are looking for a good developer with fullstack experience and could engineering experience who can deliver projects seamlingly fast and in efficient manner, I would definately recommend Kosam</p>
-        <a href="#!" class="read-more">Read More</a>
-      </div>
-    </div>
-  </section>
+        <section id="client">
+            <div class="client-heading">
+                <span>Comments</span>
+                <h3>What Clients Say</h3>
+            </div>
+            <div class="c-box-container">
+                <div class="client-box">
+                    <img src="./images/person1.jpg" alt="client1" />
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>
+                        If you are looking for a good developer with fullstack
+                        experience and could engineering experience who can
+                        deliver projects seamlingly fast and in efficient
+                        manner, I would definately recommend Kosam
+                    </p>
+                </div>
+                <div class="client-box">
+                    <img src="./images/person2.jpg" alt="client1" />
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>
+                        Kosam is a highly skilled and reliable professional with
+                        expertise in Python, Django, React, TypeScript, and
+                        JavaScript. He consistently delivers high-quality work,
+                        demonstrates strong problem-solving abilities, and is a
+                        pleasure to collaborate with. Highly recommended!
+                    </p>
+                </div>
+            </div>
+        </section>
 
-  <section id="contact">
-    <img src="./images/superiorexpr.png" alt="Contact">
-    <h3>Get The Best Project Estimation</h3>
-    <div class="contact-input">
-      <form name="contact" method="POST" data-netlify="true">
-        <input type="email" name="email" id="email" placeholder="someone@example.com">
-        <button type="submit">Continue</button>
-      </form>
-    </div>
-  </section>
+        <section id="contact">
+            <img src="./images/superiorexpr.png" alt="Contact" />
+            <h3>Get The Best Project Estimation</h3>
+            <div class="contact-input">
+                <form name="contact" method="POST" data-netlify="true">
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="someone@example.com"
+                    />
+                    <a
+                        href="mailto:kosamtech@gmail.com?subject=Get The Best Project Estimation"
+                        >Continue</a
+                    >
+                </form>
+            </div>
+        </section>
 
-  <footer>
-    <p>Growing with technology</p>
-    <p>Copyright &copy; <span id="year"></span></p>
-  </footer>
-  <script>
-    let year = new Date().getFullYear();
-    document.getElementById('year').innerText =  year;
-  </script>
-</body>
+        <footer>
+            <p>Growing with technology</p>
+            <div class="social">
+                <span>Follow Me On</span>
+                <a
+                    href="http://github.com/kosamtech"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="./images/github.png" alt="github"
+                /></a>
+                <a
+                    href="http://x.com/@kosamomollo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="./images/x.png" alt="x"
+                /></a>
+                <a
+                    href="https://linkedin.com/in/kosam-omollo-4b0b6018a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="./images/linkedin.png" alt="linkedin"
+                /></a>
+            </div>
+            <p>Copyright &copy; <span id="year"></span></p>
+        </footer>
+        <script>
+            let year = new Date().getFullYear();
+            document.getElementById("year").innerText = year;
+        </script>
+    </body>
 </html>
