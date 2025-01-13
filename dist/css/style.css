@@ -741,7 +741,7 @@ nav .menu-btn {
 
 @media (max-width: 530px) {
     .contact-input form {
-        width: 90%;
+        width: 350px;
     }
     .skill-img {
         display: none;
