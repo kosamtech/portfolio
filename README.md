@@ -4,13 +4,13 @@
 
 ### <div align="center">I'm Kosam, a full-time full-stack freelance developer 👨‍💻 working remotely since 2022 🚀</div>
 
-- 🔭 I’m currently working on [KosamTech](https://kosamtech.com)
+-   🔭 I’m currently working on [KosamTech](https://kosamtech.com)
 
-- 🌱 I’m currently learning Data science, ML and DevOps
+-   🌱 I’m currently learning Data science, ML and DevOps
 
-- ❓ Ask me about anything related to Backend Development and related technologies
+-   ❓ Ask me about anything related to Backend Development and related technologies
 
-- ⚡ Fun fact: I use tabs over spaces
+-   ⚡ Fun fact: I use tabs over spaces
 
 <br/>
 
