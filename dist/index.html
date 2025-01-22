@@ -68,9 +68,9 @@
         />
         <title>Kosam Omollo - Software Engineer & Data Scientist</title>
     </head>
-    <body>
+    <body class="body" data-theme="light">
         <section id="main">
-            <nav>
+            <nav class="nav">
                 <a href="/" class="logo">
                     <img src="./images/logo.png" alt="Logo" />
                 </a>
@@ -84,19 +84,28 @@
                     <span class="nav-icon"></span>
                 </label>
                 <ul class="menu">
-                    <li><a href="#main">Home</a></li>
-                    <li><a href="#skills">Skills </a></li>
-                    <li><a href="#recent">Recent</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#client">Clients</a></li>
+                    <li><a class="nav-link" href="#main">Home</a></li>
+                    <li><a class="nav-link" href="#skills">Skills </a></li>
+                    <li><a class="nav-link" href="#recent">Recent</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li><a class="nav-link" href="#client">Clients</a></li>
                     <li>
-                        <a href="https://kosamtech.com" target="_blank"
+                        <a class="nav-link" href="https://kosamtech.com" target="_blank"
                             >Platform</a
                         >
                     </li>
                 </ul>
-                <a href="#contact" class="hey">Say Hi</a>
+                <div id="theme" class="theme">
+                    <div class="theme-img"><img src="./images/sun_dark.png" alt="theme"> <span>Theme</span></div>
+                    <div class="theme-picker">
+                        <ul class="theme-list">
+                            <li data-theme="default" class="list-item"><img src="./images/os_default.svg" alt="half-moon"><span>Os Default</span></li>
+                            <li data-theme="dark" class="list-item"><img src="./images/moon_dark.png" alt="dark"><span>Dark</span></li>
+                            <li data-theme="light" class="list-item"><img src="./images/sun_dark.png" alt="light"><span>Light</span></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
 
             <div class="content">
@@ -104,8 +113,8 @@
                     <img src="./images/me.jpg" alt="Me" />
                 </div>
                 <div class="main-text">
-                    <h1>Hello, I am Kosam</h1>
-                    <p>
+                    <h1 class="hello">Hello, I am Kosam</h1>
+                    <p class="about-me">
                         I love to build things with code, tweet/x about tech and
                         learning new technology. I accept fiat and crypto
                     </p>
@@ -122,7 +131,7 @@
         <section id="skills">
             <div class="skill-heading">
                 <span>My Skills</span>
-                <h2>My Expertise</h2>
+                <h2 class="expertise">My Expertise</h2>
             </div>
             <div class="skill-container">
                 <div class="skill-box">
@@ -133,7 +142,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Python</strong>
+                            <strong class="lang">Python</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -200,7 +209,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Django</strong>
+                            <strong class="lang">Django</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -269,7 +278,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>JavaScript</strong>
+                            <strong class="lang">JavaScript</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -335,7 +344,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Typescript</strong>
+                            <strong class="lang">Typescript</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -389,7 +398,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>NodeJS</strong>
+                            <strong class="lang">NodeJS</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -485,7 +494,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>ReactJS</strong>
+                            <strong class="lang">ReactJS</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -583,7 +592,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Deep Learning</strong>
+                            <strong class="lang">Deep Learning</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -704,7 +713,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Data Science</strong>
+                            <strong class="lang">Data Science</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -791,7 +800,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Math & Statistics</strong>
+                            <strong class="lang">Math & Statistics</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -830,7 +839,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Machine Learning</strong>
+                            <strong class="lang">Machine Learning</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -885,7 +894,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Docker</strong>
+                            <strong class="lang">Docker</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -941,7 +950,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Kubernetes</strong>
+                            <strong class="lang">Kubernetes</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -995,7 +1004,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>NextJS</strong>
+                            <strong class="lang">NextJS</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -1034,7 +1043,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>AWS</strong>
+                            <strong class="lang">AWS</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -1072,7 +1081,7 @@
                     </div>
                     <div class="s-box-text">
                         <div class="tooltip">
-                            <strong>Kotlin/Android</strong>
+                            <strong class="lang">Kotlin/Android</strong>
                             <img
                                 src="./images/check_complete.png"
                                 alt="check"
@@ -1110,7 +1119,7 @@
                         /></span>
                     </div>
                     <div class="s-box-text">
-                        <strong>Digital Ocean</strong>
+                        <strong class="lang">Digital Ocean</strong>
                         <p>
                             I have 4 year of experience in Digital Ocean Infrastructure
                         </p>
@@ -1123,7 +1132,7 @@
                         /></span>
                     </div>
                     <div class="s-box-text">
-                        <strong>Nestjs</strong>
+                        <strong class="lang">Nestjs</strong>
                         <p>
                             I have 1 year of experience in NestJS and completed
                             2+ projects
@@ -1137,7 +1146,7 @@
                         /></span>
                     </div>
                     <div class="s-box-text">
-                        <strong>Git & Github</strong>
+                        <strong class="lang">Git & Github</strong>
                         <p>
                             I have 5 year of experience in Git and Github source
                             control systems
@@ -1150,7 +1159,7 @@
         <section id="recent">
             <div class="recent-heading">
                 <span>Recent</span>
-                <h3>Recent Doing Project Design</h3>
+                <h3 class="heading">Recent Doing Project Design</h3>
             </div>
             <div class="recent-img">
                 <img src="./images/notebook.png" alt="aft" />
@@ -1171,7 +1180,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         KosamTech - Automating everything. Find coding related
                         articles. Career tips in the life of a developer
                     </p>
@@ -1192,7 +1201,7 @@
                         class="projectimg"
                         alt="notebook"
                     />
-                    <p>
+                    <p class="desc">
                         NotebookJS - An interactive coding environment for JS similar to google colab notebook.
                     </p>
                     <div class="stack">
@@ -1215,7 +1224,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         Nike - Shop from the best nike brand of shoes with satisfaction and quality
                     </p>
                     <div class="stack">
@@ -1236,7 +1245,7 @@
                         class="projectimg"
                         alt="aft"
                     />
-                    <p>
+                    <p class="desc">
                         HDS - Harvester Data Store for data visualization of the robotic harvesters error logs.
                     </p>
                     <div class="stack">
@@ -1262,7 +1271,7 @@
                         class="projectimg"
                         alt="zumi"
                     />
-                    <p>
+                    <p class="desc">
                         Zumi - Clothes retail ecommerce store.
                     </p>
                     <div class="stack">
@@ -1284,7 +1293,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         Instadriver - Instagram for Drivers. Livestream and chat
                         with other drivers
                     </p>
@@ -1305,7 +1314,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         Instadriver cloud-based fleet management solution for
                         your transport business.
                     </p>
@@ -1331,7 +1340,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         Stepper - Migrate from one household to another at the
                         convinience of our services
                     </p>
@@ -1355,7 +1364,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         KosamTech Business - P2P Loan Management Platform for Personal Loans
                     </p>
                     <div class="stack">
@@ -1378,7 +1387,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         KosamTech Client - P2P Loan Management Platform for Personal Loans
                     </p>
                     <div class="stack">
@@ -1401,7 +1410,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         Allsafeshop No.1 Online Shop for your business.
                         Intergrated Stripe Payment Method
                     </p>
@@ -1422,7 +1431,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         Oracle Kenyatta University Club. club website to manage
                         events and internal operations
                     </p>
@@ -1443,7 +1452,7 @@
                         class="projectimg"
                         alt="project1"
                     />
-                    <p>
+                    <p class="desc">
                         Developers Connect - LinkedIn for developers to showcase
                         their skills and find potential recruiters
                     </p>
@@ -1466,7 +1475,7 @@
         <section id="client">
             <div class="client-heading">
                 <span>Comments</span>
-                <h3>What Clients Say</h3>
+                <h3 class="heading">What Clients Say</h3>
             </div>
             <div class="c-box-container">
                 <div class="client-box">
@@ -1478,7 +1487,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>
+                    <p class="comment">
                         If you are looking for a good developer with fullstack
                         experience and could engineering experience who can
                         deliver projects seamlingly fast and in efficient
@@ -1494,7 +1503,7 @@
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
                     </div>
-                    <p>
+                    <p class="comment">
                         Kosam is a highly skilled and reliable professional with
                         expertise in Python, Django, React, TypeScript, and
                         JavaScript. He consistently delivers high-quality work,
@@ -1524,8 +1533,8 @@
             </div>
         </section>
 
-        <footer>
-            <p>Growing with technology</p>
+        <footer class="footer">
+            <p class="grow">Growing with technology</p>
             <div class="social">
                 <span>Follow Me On</span>
                 <a
@@ -1553,5 +1562,6 @@
             let year = new Date().getFullYear();
             document.getElementById("year").innerText = year;
         </script>
+        <script src="./js/index.js"></script>
     </body>
 </html>
