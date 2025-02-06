@@ -240,14 +240,18 @@ img {
 }
 
 #skills {
-    width: 90%;
-    margin: auto auto 50px auto;
+    /* width: 90%;
+    margin: auto auto 50px auto; */
+    width: 100%;
+    padding: 50px 0;
 }
 
 .skill-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
 .skill-img {
@@ -283,13 +287,19 @@ img {
 
 .skill-box {
     display: flex;
-    border: 1px solid var(--light-gray-300);
+    width: 310px;
+    min-height: 350px;
+    background-color: var(--bg-white);
+    border-radius: 10px;
     padding: 10px;
-    border-radius: 5px;
+    margin: 20px;
+    box-shadow: var(--box-shadow-1);
 }
 
 .skill-box:hover {
-    filter: brightness(90%);
+    transform: translateY(-10px);
+    box-shadow: var(--box-shadow-2);
+    transition: all ease 0.2s;
 }
 
 .s-box-icon {
@@ -733,7 +743,7 @@ img {
     color: var(--text-white) !important;
 }
 
-.project-box-dark {
+.project-box-dark, .skill-box-dark {
     background-color: var(--bg-dark-100) !important;
 }
 

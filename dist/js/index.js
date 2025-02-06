@@ -138,6 +138,7 @@ class App {
             document.querySelector('.expertise').classList.add("expertise-dark");
             const skillBoxes = document.querySelectorAll(".skill-box");
             skillBoxes.forEach((box) => {
+                box.classList.add("skill-box-dark")
                 box.querySelector('.lang').classList.add('lang-dark')
                 box.querySelectorAll('a').forEach(link => {
                     link.classList.add('link-dark');
@@ -177,6 +178,7 @@ class App {
             document.querySelector('.expertise').classList.remove("expertise-dark");
             const skillBoxes = document.querySelectorAll(".skill-box");
             skillBoxes.forEach((box) => {
+                box.classList.remove("skill-box-dark")
                 box.querySelector('.lang').classList.remove('lang-dark')
                 box.querySelectorAll('a').forEach(link => {
                     link.classList.remove('link-dark');
