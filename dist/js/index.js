@@ -73,6 +73,24 @@ class App {
         this.themePicker.classList.add("display-block");
     }
 
+    changeThemeIcon(theme, usesDefault) {
+        const themeImgContainer = document.querySelector(".theme-img");
+        const img = document.createElement("img");
+        const span = document.createElement("span");
+        span.textContent = "Theme";
+        if (theme === "dark" && usesDefault === true) {
+            img.setAttribute("src", "./images/os_default.svg");
+        } else if (theme === "dark") {
+            img.setAttribute("src", "./images/moon_dark.png");
+        } else {
+            img.setAttribute("src", "./images/sun_dark.png");
+        }
+        img.setAttribute("alt", "theme");
+        themeImgContainer.innerHTML = "";
+        themeImgContainer.appendChild(img);
+        themeImgContainer.appendChild(span);
+    }
+
     selectTheme(e) {
         let theme;
         let usesDefault = false;
@@ -92,21 +110,7 @@ class App {
             usesDefault = true;
         }
 
-        const themeImgContainer = document.querySelector(".theme-img");
-        const img = document.createElement("img");
-        const span = document.createElement("span");
-        span.textContent = "Theme";
-        if (theme === "dark" && usesDefault === true) {
-            img.setAttribute("src", "./images/os_default.svg");
-        } else if (theme === "dark") {
-            img.setAttribute("src", "./images/moon_dark.png");
-        } else {
-            img.setAttribute("src", "./images/sun_dark.png");
-        }
-        img.setAttribute("alt", "theme");
-        themeImgContainer.innerHTML = "";
-        themeImgContainer.appendChild(img);
-        themeImgContainer.appendChild(span);
+        this.changeThemeIcon(theme, usesDefault);
 
         if (theme === "dark") {
             this.applyTheme("add");
@@ -120,6 +124,7 @@ class App {
             window.matchMedia &&
             window.matchMedia("(prefers-color-scheme: dark)").matches
         ) {
+            this.changeThemeIcon("dark", true);
             this.applyTheme("add");
         } else {
             this.applyTheme("remove");
