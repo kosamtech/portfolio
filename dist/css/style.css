@@ -338,7 +338,7 @@ img {
     visibility: hidden;
     width: 120px;
     background-color: #555;
-    color: var(--text-color);
+    color: var(--text-white);
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
